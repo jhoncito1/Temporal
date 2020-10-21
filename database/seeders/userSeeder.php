@@ -23,7 +23,7 @@ class userSeeder extends Seeder
                 'direccion' => $faker->address,
                 'profesion' => $faker->randomDigit,
                 'telefono' => $faker->PhoneNumber,
-                'empresa_anterior' => $faker->randomDigit,
+                'empresa_anterior' => $faker->company,
                 'perfil_laboral' => $faker->text(150),
                 'estado' => $faker->numberBetween($min = 0, $max = 1),
                 'email' => $faker->email,
